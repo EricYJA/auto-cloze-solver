@@ -77,7 +77,11 @@ class Preprocessor(object):
             #break
         print('high school sample:', high_cnt)
         print('middle school sample:', middle_cnt)
+<<<<<<< HEAD
         for i in range(len(self.data_objs)): 
+=======
+        for i in range(len(self.data_objs)):
+>>>>>>> 2d0641898de8f7383f5cf76103770eb37e71a220
             self.data_objs[i].convert_tokens_to_ids(self.tokenizer)
             #break
         torch.save(self.data_objs, args.save_name)
